@@ -1,0 +1,10 @@
+
+// Basic Bootstrap 4 override
+$theme-colors: (
+    "primary": #22c2fc,
+    "success": red,
+);
+
+
+// No touchy
+@import '../bootstrap/scss/bootstrap.scss';
