@@ -7,11 +7,11 @@
 
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
-    <title>Document</title>
+    <title>Bootstrap Overview</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Team3</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -27,32 +27,80 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="./index.html" target="_blank"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
           <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a class="nav-link" href="./our-theme/freebie.html">Our-Theme</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-          />
-          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-4">Howdy, World!</h1>
+      <p class="lead">
+        This is a basic intro to Bootstrap 4, Sass and Firebase
+      </p>
+    </div>
+    <!-- End Jumbotron -->
+    <!-- Bootstrap 4 Intro -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Bootstrap Components -->
+        <div class="col-md-6">
+          <!-- BT Alert -->
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <hr>
+          <div>
+            <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+            <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+            <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+            <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+            <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+            <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+          </div>
+          <hr>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+        </div>
+        <!-- Bootstrap Components Code -->
+        <div class="col-md-6">
+          <!-- BT Alert Code -->
+          <code>
+              &lt;div class="alert alert-primary" role="alert"&gt;
+              A simple primary alert—check it out!
+              &lt;/div&gt;
+          </code>
+          <hr>
+          <code>
+              &lt;h1&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/h1&gt;<br>
+              &lt;h2&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/h2&gt;<br>
+              &lt;h3&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/h3&gt;<br>
+              &lt;h4&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/h4&gt;<br>
+              &lt;h5&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/h5&gt;<br>
+              &lt;h6&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/h6&gt;<br>
+          </code>
+          <hr>
+          <code>
+            &lt;nav aria-label="breadcrumb"&gt;
+            &lt;ol class="breadcrumb"&gt;
+            &lt;li class="breadcrumb-item"&gt;&lt;a href="#">Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="breadcrumb-item"&gt;&lt;a href="#">Library&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="breadcrumb-item active" aria-current="page"&gt;Data&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;/nav&gt;
+          </code>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
