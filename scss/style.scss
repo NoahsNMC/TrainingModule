@@ -1,3 +1,68 @@
+// No touchy
+@import '../bootstrap/scss/bootstrap.scss';
+
+$jumbotron2-bg: #22c2fc;
+
+$navbar-transparent-brand-color: #333;
+$navbar-transparent-brand-hover-color: #22c2fc;
+$navbar-transparent-color:#22c2fc;
+$navbar-transparent-hover-color:#333;
+$navbar-transparent-disabled-color:#777;
+$navbar-transparent-active-color:#099bff;
+$navbar-transparent-toggler-border-color:transparent;
+$navbar-transparent-toggler-icon-bg:transparent;
+
+$square-color: #22c2fc;
+
+
+// Alert Color
+.alert-primary2 {
+    color: #fff;
+    background-color: #22c2fc;
+    border-color: #22c2fc;
+}
+
+.alert-secondary2 {
+    color: #fff;
+    background-color: #099bff;
+    border-color: #099bff;
+}
+
+.alert-success2 {
+    color: #333;
+    background-color: #88ff00;
+    border-color: #88ff00;
+}
+
+.alert-danger2 {
+    color: #fff;
+    background-color: #570000;
+    border-color: #570000;
+}
+
+.alert-warning2 {
+    color: #fff;
+    background-color: #ff5100;
+    border-color: #ff5100;
+}
+
+.alert-info2 {
+    color: #fff;
+    background-color: #00bd8e;
+    border-color: #00bd8e;
+}
+
+.alert-light2 {
+    color: #333;
+    background-color: #cacaca;
+    border-color: #cacaca;
+}
+
+.alert-dark2 {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
 
 // Basic Bootstrap 4 override
 $theme-colors: (
@@ -7,5 +72,93 @@ $theme-colors: (
 );
 
 
-// No touchy
-@import '../bootstrap/scss/bootstrap.scss';
+
+// Square
+.square {
+    width: 100px;
+    height: 100px;
+    background: $square-color;
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background: lighten($square-color,30%);
+}
+
+.square3 {
+    width: 100px;
+    height: 100px;
+    background: darken($square-color,10%);
+}
+
+.square4 {
+    width: 100px;
+    height: 100px;
+    background: adjust-hue($square-color,20%);
+}
+
+// Jumbotron
+.jumbotron-2 {
+    background-color: $jumbotron2-bg;
+}
+
+
+// Transparent Navbar
+.navbar-transparent {
+
+    border: 2px solid #333;
+
+    .navbar-brand {
+        color: $navbar-transparent-brand-color;
+
+        @include hover-focus {
+            color: $navbar-transparent-brand-hover-color;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: $navbar-transparent-color;
+
+            @include hover-focus {
+            color: $navbar-transparent-hover-color;
+            }
+
+            &.disabled {
+            color: $navbar-transparent-disabled-color;
+            }
+        }
+
+        .show > .nav-link,
+        .active > .nav-link,
+        .nav-link.show,
+        .nav-link.active {
+            color: $navbar-transparent-active-color;
+        }
+    }
+
+    .navbar-toggler {
+        color: $navbar-transparent-color;
+        border-color: $navbar-transparent-toggler-border-color;
+    }
+
+    .navbar-toggler-icon {
+        background-image: $navbar-transparent-toggler-icon-bg;
+    }
+
+    .navbar-text {
+        color: $navbar-transparent-color;
+        a {
+            color: $navbar-transparent-active-color;
+
+            @include hover-focus {
+            color: $navbar-transparent-active-color;
+            }
+        }
+    }
+}
+
+.bg-transparent {
+    
+}
