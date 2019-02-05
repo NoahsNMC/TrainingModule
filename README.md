@@ -1,6 +1,6 @@
-# TrainingModule
-## Project name  
-Your project’s name is the first thing people will see upon scrolling down to your README, and is included upon creation of your README file.
+<h3 align="center">CIT280 Training Module</h3>
+
+<p align="center">Get a website up and running quickly using Bootstrap, SCSS, and Firebase.</p>
 
 ## Description  
 A description of your project follows. A good description is clear, short, and to the point. Describe the importance of your project, and what it does.
