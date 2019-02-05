@@ -4,7 +4,7 @@
 
 <br />
 
-<p align="center"><a href="https://github.com/NoahsNMC/TrainingModule/wiki/Getting-Started">Get Started</a> · <a href="https://github.com/NoahsNMC/TrainingModule/wiki">Wiki</a> · <a href="https://github.com/NoahsNMC/TrainingModule/wiki/FAQ">FAQ</a></p>
+<p align="center"><a href="https://github.com/NoahsNMC/TrainingModule/wiki/Getting-Started">Get Started</a> · <a href="https://github.com/NoahsNMC/TrainingModule/wiki">Wiki</a> · <a href="https://github.com/NoahsNMC/TrainingModule/wiki/FAQ">FAQ</a> · <a href="https://github.com/NoahsNMC/TrainingModule/issues/new?template=feature_request.md">Request Feature</a> · <a href="https://github.com/twbs/bootstrap/issues/new?template=bug.md">Report Bug</a></p>
 
 ## Status
 
