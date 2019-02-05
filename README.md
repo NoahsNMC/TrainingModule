@@ -6,8 +6,18 @@
 
 <p align="center"><a href="https://github.com/NoahsNMC/TrainingModule/wiki/Getting-Started">Get Started</a> · <a href="https://github.com/NoahsNMC/TrainingModule/wiki">Wiki</a> · <a href="https://github.com/NoahsNMC/TrainingModule/wiki/FAQ">FAQ</a></p>
 
-### Creators
+## Status
 
-Connor, Noah, Scott, Richie and Caiti
+![](https://img.shields.io/github/issues/NoahsNMC/TrainingModule.svg)
+![](https://img.shields.io/github/forks/NoahsNMC/TrainingModule.svg)
+![](https://img.shields.io/github/stars/NoahsNMC/TrainingModule.svg)
+![](https://img.shields.io/github/license/NoahsNMC/TrainingModule.svg)
+![](https://img.shields.io/twitter/url/https/github.com/NoahsNMC/TrainingModule.svg?style=social)
 
-License: Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s licensing guide!
+## Creators
+
+>[Cati Kujawski](https://github.com/kujawsc)  
+[Noah Osterhout](https://github.com/NoahFlowa)  
+[Richie Tarkowski](https://github.com/tarkowr)  
+[Scott Peterson](https://github.com/peter610)  
+[Connor Hansen](https://github.com/hansenconnor)
